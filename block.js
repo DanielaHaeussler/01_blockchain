@@ -21,6 +21,13 @@ static genesis (){
 return new this("Genesis Time", "----", "2bfdaaa3388", ["data1", "data2", "data3"]);
 }
 
+static mineBlock (lastBlock,ownData){
+    const timestamp = Date.now();
+    const lastHash = lastBlock.hash;
+    const hash = "ownhash";
+
+    return new this(timestamp, lastHash,hash,ownData); // call constructor 
+}
 
 }
 
