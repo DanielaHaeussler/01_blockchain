@@ -10,5 +10,5 @@ const Block = require("./block");
 console.log(block.toString());
 console.log(Block.genesis().toString());*/
 
-const testBlock = Block.mineBlock(Block.genesis(), "testData");
-console.log(testBlock.toString());
+/*const testBlock = Block.mineBlock(Block.genesis(), "testData");
+console.log(testBlock.toString()); */
