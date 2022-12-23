@@ -3,6 +3,9 @@
 //Import 
 
 const Block = require("./block");
+const Blockchain = require("./blockchain");
+
+
 
 /***Test der block-Funktionalität  */
 
@@ -12,3 +15,14 @@ console.log(Block.genesis().toString());*/
 
 /*const testBlock = Block.mineBlock(Block.genesis(), "testData");
 console.log(testBlock.toString()); */
+
+/* Test der Blockchain Funktionalität */
+const chain = new Blockchain();
+console.log(chain);
+
+chain.addBlock("Daten von Block 1");
+console.log(chain);
+chain.addBlock("Daten von Block 2");
+console.log(chain);
+chain.addBlock("Daten von Block 3");
+console.log(chain);
