@@ -1,3 +1,3 @@
 # 01_blockchain
 
-BlockChain-Projekt
+Blockchain-Project
