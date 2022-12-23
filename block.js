@@ -16,6 +16,12 @@ class Block{
         Hash:       ${this.hash}
         Data:       ${this.data}`
     }
+
+static genesis (){
+return new this("Genesis Time", "----", "2bfdaaa3388", ["data1", "data2", "data3"]);
+}
+
+
 }
 
 module.exports = Block; // Export al Modul

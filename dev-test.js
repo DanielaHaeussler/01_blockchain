@@ -8,3 +8,4 @@ const Block = require("./block");
 
 const block = new Block("aktuelle Zeit","hash1", "hash2", "meineDaten");
 console.log(block.toString());
+console.log(Block.genesis().toString());
